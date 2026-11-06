@@ -62,6 +62,8 @@ main>section{margin-bottom:16px}
 .field{border:2px solid var(--bd);border-radius:10px;padding:10px}
 textarea{width:100%;border:0;outline:0;resize:none;font-size:14px;background:transparent;color:var(--ink)}
 textarea::placeholder{color:#c9c3c4}
+textarea{border-radius:12px;padding:6px 8px}
+textarea:focus-visible{outline:2px solid rgba(217,160,47,.4);outline-offset:0;border-radius:12px}
 .field-bar{display:flex;justify-content:flex-end;align-items:center;gap:8px}
 .select-wrap{position:relative;flex:1;max-width:240px}
 select{appearance:none;width:100%;background:var(--gold);color:#fff;font-size:11px;font-weight:700;border:0;border-radius:4px;padding:7px 28px 7px 12px;cursor:pointer}
