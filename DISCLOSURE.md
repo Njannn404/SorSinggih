@@ -11,9 +11,9 @@
 | Peran AI dalam Produk | Fungsi inti: terjemah Indo ke Bali sesuai lawan bicara, Bali ke Indo, koreksi kalimat |
 | Dataset / Data Source | Konten belajar (data.js) disusun tim, belum divalidasi penutur asli |
 | Open-source Libraries | express, cors, dotenv, @google/generative-ai |
-| Template / Boilerplate | [Tidak ada / sebutkan] |
+| Template / Boilerplate | [Tidak ada] |
 | AI Coding Assistant | [Sebutkan semua yang dipakai, misalnya Claude, dan untuk bagian apa] |
-| Pre-existing Components | [Tidak ada / sebutkan] |
+| Pre-existing Components | [Tidak ada] |
 | Third-party Assets / Credits | Font Plus Jakarta Sans (OFL), maskot [pembuat dan lisensi] |
 
 Pernyataan: Kami menyatakan bahwa informasi di atas benar dan lengkap.
