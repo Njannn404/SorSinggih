@@ -49,7 +49,7 @@ img{-webkit-user-drag:none;user-drag:none}
 /* ---------- App shell ---------- */
 .app{max-width:520px;margin:0 auto;padding:0 20px 48px}
 .top{display:flex;align-items:center;gap:10px;padding:22px 0 14px;font-size:14px;font-weight:500;line-height:1.15}
-.top-logo{display:none;margin-left:auto;height:56px}
+.top-logo{display:block;height:48px}
 .top-ic{width:34px;height:34px;stroke-width:1.6}
 .split,.col{display:grid;gap:16px}
 .col{align-content:start}
@@ -331,7 +331,7 @@ details p{background:var(--card);padding:12px 14px;border-radius:0 0 8px 8px;fon
 @media (min-width:1100px){
   .app{max-width:1240px}
   .top{padding:28px 0 22px;font-size:16px}
-  .top-logo{display:block}
+  .top-logo{height:56px}
   .card{border-radius:22px;box-shadow:0 16px 38px -26px rgba(120,80,0,.4)}
   .split{grid-template-columns:7fr 5fr;gap:28px;align-items:stretch}
   .side{position:static;grid-template-rows:1fr auto;align-content:stretch}
