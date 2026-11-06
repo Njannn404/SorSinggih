@@ -14,6 +14,6 @@
 | Template / Boilerplate | [Tidak ada] |
 | AI Coding Assistant | [Sebutkan semua yang dipakai, misalnya Claude, dan untuk bagian apa] |
 | Pre-existing Components | [Tidak ada] |
-| Third-party Assets / Credits | Font Plus Jakarta Sans (OFL), maskot [pembuat dan lisensi] |
+| Third-party Assets / Credits | Font Plus Jakarta Sans (OFL), maskot [Hanoman] |
 
 Pernyataan: Kami menyatakan bahwa informasi di atas benar dan lengkap.
