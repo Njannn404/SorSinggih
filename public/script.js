@@ -84,8 +84,22 @@ $('w-btn').addEventListener('click', () => {
     if (wi < LANGKAH.length - 1) tampilWelcome(wi + 1);
     else pindah($('welcome'), $('app'), 'maju');
 });
+// Tombol Lewati: hentikan ketikan dan timer lalu langsung masuk ke aplikasi
+$('w-skip').addEventListener('click', () => {
+    wTok++; clearTimeout(wTimer); caret.remove();
+    pindah($('welcome'), $('app'), 'maju');
+});
 // Layar 1 lanjut sendiri ke layar 2 (tanpa klik). Tombol hanya ada di layar 2 dan 3.
 tampilWelcome(0);
+
+// Teks dan ilustrasi Hanoman: cegah salin, seret gambar, dan menu klik kanan
+const KUNCI = '.welcome, .w-float, .cta, .chat-head, .about-top, .msg.ai';
+document.addEventListener('copy', (e) => {
+    const sel = window.getSelection();
+    if (sel && sel.anchorNode && sel.anchorNode.parentElement && sel.anchorNode.parentElement.closest(KUNCI)) e.preventDefault();
+});
+document.addEventListener('contextmenu', (e) => { if (e.target.closest && e.target.closest(KUNCI)) e.preventDefault(); });
+document.addEventListener('dragstart', (e) => { if (e.target.tagName === 'IMG') e.preventDefault(); });
 
 // ---------- Pilihan lawan bicara (nilai harus sama dengan kunci PANDUAN_TINGKAT di server.js)
 const ROLES = [
