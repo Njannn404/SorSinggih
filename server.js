@@ -2,6 +2,7 @@
 // BLOK 1: IMPORT LIBRARY
 // ==========================================
 const express = require('express');
+const path = require('path');
 const cors = require('cors');
 require('dotenv').config(); // Membaca file .env
 const { GoogleGenerativeAI } = require('@google/generative-ai');
@@ -17,7 +18,7 @@ app.use(cors());                          // Mengizinkan frontend akses API ini
 app.use('/api/scan', express.json({ limit: '1mb' }));   // gambar JPEG base64 (sudah diperkecil di frontend)
 app.use('/api/chat', express.json({ limit: '20kb' }));  // riwayat maks 10 pesan
 app.use(express.json({ limit: '10kb' })); // Menerima JSON (dibatasi agar tidak disalahgunakan)
-app.use(express.static('public'));        // Menyajikan file HTML/CSS/JS dari folder 'public'
+app.use(express.static(path.join(__dirname, 'public')));       // Menyajikan file HTML/CSS/JS dari folder 'public'
 
 // ==========================================
 // BLOK 3: SETUP AI GEMINI
