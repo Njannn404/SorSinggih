@@ -6,7 +6,7 @@
 | Framework / Frontend | HTML, CSS, JavaScript murni |
 | Backend / Runtime | Node.js, Express |
 | Database / Storage | Tidak ada database. localStorage browser untuk akun dan progres |
-| Hosting / Deployment | [Vercel, isi setelah deploy] |
+| Hosting / Deployment | Vercel |
 | AI Model / API / Method | Google Gemini API, model gemini-3.5-flash-lite, prompt dengan panduan tingkat tutur |
 | Peran AI dalam Produk | Fungsi inti: terjemah Indo ke Bali sesuai lawan bicara, Bali ke Indo, koreksi kalimat |
 | Dataset / Data Source | Konten belajar (data.js) disusun tim, belum divalidasi penutur asli |
