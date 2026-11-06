@@ -52,7 +52,7 @@ Kalimat pengguna tidak disimpan di server.
 5. Buka http://localhost:3000
 
 ## Deployment URL
-[isi setelah deploy]
+https://sorsinggih.vercel.app/
 
 ## Team Members
 - Jihad Al Qudsi: Developer
